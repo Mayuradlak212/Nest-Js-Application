@@ -1,0 +1,14 @@
+{
+    "href": "postgres://default:lmZi9uItBWx7@ep-proud-band-a45g0gy4.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require",
+    "origin": "null",
+    "protocol": "postgres:",
+    "username": "default",
+    "password": "lmZi9uItBWx7",
+    "host": "ep-proud-band-a45g0gy4.us-east-1.aws.neon.tech:5432",
+    "hostname": "ep-proud-band-a45g0gy4.us-east-1.aws.neon.tech",
+    "port": "5432",
+    "pathname": "/verceldb",
+    "search": "?sslmode=require",
+    "searchParams": { "sslmode": "require" },
+    "hash": ""
+}
