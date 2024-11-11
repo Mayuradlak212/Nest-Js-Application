@@ -13,10 +13,16 @@ export class ClientController {
   }
 
   @Get()
-  findAll() {
-    return this.clientService.findAll();
+ async findAll():Promise<any> {
+    console.log("Data ",await this.clientService.findAll())
+    return {
+      success:true,
+      message:"Data Fetched Successfully",
+      data: await this.clientService.findAll()
+    }
+   
   }
-
+  
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.clientService.findOne(+id);

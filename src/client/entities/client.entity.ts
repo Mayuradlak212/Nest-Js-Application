@@ -6,6 +6,6 @@ export class Client {
     id: number;
     @Column()
     name: string;
-    @Column()
+    @Column({default:18})
     age: number;
 }
